@@ -29,27 +29,6 @@ def service(c, m):
     m.delete()
 
 
-@bot.on_message(filters.private)
-def start(_, msg: Message):
-    msg.reply_photo(
-                    photo="https://telegra.ph/file/b2704f702734610934b9c.jpg", 
-                    caption="Hi, I'm a Banall Robot to help you remove all users from your group.\nNow add me to a group and don't forget to give me the permissions.\nThen send /banall in the group and I will start my work.", 
-                    reply_markup=InlineKeyboardMarkup(
-                                                      [
-                                                       [
-                                                        InlineKeyboardButton("Source", url="https://www.github.com/TheDeCode/BanAllBot"), 
-                                                        InlineKeyboardButton("Support", url="https://t.me/TheeDeCode")                                      
-                                                       ], 
-                                                       [
-                                                        InlineKeyboardButton("Update", url="https://t.me/OfficialDeCode"), 
-                                                        InlineKeyboardButton("Creator", url="https://t.me/DeCodeDevs")                                      
-                                                       ], 
-                                                       [
-                                                        InlineKeyboardButton("Owner", url=f"https://t.me/{OWN_UNAME}")                                                                                              
-                                                       ]                                                     
-                                                      ]
-                                                     )
-)
 
 
 bot.run()
