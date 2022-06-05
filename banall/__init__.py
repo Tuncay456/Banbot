@@ -10,10 +10,10 @@ ERROR = 'something Went Wrong Please Try Again.\n\n**{}** !'
 
 
 class Config:
-    TOKEN=os.environ['BOT_TOKEN']
-    OWNER=os.environ['OWNER_USERNAME']
-    APP_HASH=os.environ['API_HASH']
-    APP_ID=int(os.environ['API_ID'])
+    TOKEN=os.environ['5364821056:AAHvnJnqRgV2rBNOL6nb-yZk5dfdxAz4gKQ']
+    OWNER=os.environ['Nevarevladim']
+    APP_HASH=os.environ['0499f7f54f3fbb56b43acb6edf2d9696']
+    APP_ID=int(os.environ['15781409'])
     LOGGER=int(os.environ['LOG_ID'])
  
     if not TOKEN:
