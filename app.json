@@ -1,20 +1,20 @@
 {
-  "name": "BanAllBot",
+  "name": "Spamkoruma_1_bot",
   "env": {
     "BOT_TOKEN": {
-      "description": "Your bot token, as a string.",
+      "description": "5364821056:AAHvnJnqRgV2rBNOL6nb-yZk5dfdxAz4gKQ.",
       "value": ""
     },
     "API_ID": {
-      "description": "Get this value from https://my.telegram.org",
+      "description": "15781409",
       "value": ""
     }, 
     "OWNER_USERNAME": {
-      "description": "Username Of Code Owner without @ and https:// , t.me://",
+      "description": "https:// , t.me://Nevarevladim",
       "value": ""
     },
     "API_HASH": {
-      "description": "Get this value from https://my.telegram.org",
+      "description": "0499f7f54f3fbb56b43acb6edf2d9696",
       "value": ""
 }
   },
